@@ -2,7 +2,7 @@
 //Initialize the update checker.
 require 'theme-updates/theme-update-checker.php';
 $example_update_checker = new ThemeUpdateChecker(
-    'menthes',
+    'menthes-master',
     'https://raw.githubusercontent.com/rodrigomarineli/wordpress_themes/master/Menthes/info.json'
 );
 
